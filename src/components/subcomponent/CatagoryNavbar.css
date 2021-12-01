@@ -1,0 +1,24 @@
+.cat-width {
+    display: none;
+    position: absolute;
+    top: 66px;
+    right: 0;
+    width: 300px;
+    height: auto;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.show-cat {
+    display: block;
+}
+.cat-width li {
+    padding: 20px;
+    transition: .3s;
+}
+.cat-width li p {
+    font-size: 1.5rem;
+    color: #000;
+}
+.cat-width li:hover {
+    background: rgb(219, 219, 219);
+}

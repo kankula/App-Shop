@@ -1,0 +1,35 @@
+.home {
+    height: 100vh;
+    overflow: auto;
+}
+.home .max-width {
+    padding-top: 90px;
+}
+.pro-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin: auto;
+}
+
+
+@media only screen and (max-width:1280px) {
+    .pro-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+@media only screen and (max-width:920px) {
+    .pro-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+@media only screen and (max-width:620px) {
+    .pro-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+  }
+  
