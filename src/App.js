@@ -25,7 +25,7 @@ function App() {
 
 }
   return (
-    <Router>
+    <Router basename={"/App-Shop"}>
       <div className="App">
         <Navbar data={data} setFilter={setFilter} filterProduct={filterProduct} />
         <Home data={data} filter={filter}/>
