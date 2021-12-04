@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from './components/components/Navbar';
 import Home from './contents/Home';
 import { useState, useEffect } from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 
 }
   return (
-    <Router basename={"/App-Shop"}>
+    <Router>
       <div className="App">
         <Navbar data={data} setFilter={setFilter} filterProduct={filterProduct} />
         <Home data={data} filter={filter}/>
