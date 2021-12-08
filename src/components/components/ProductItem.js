@@ -15,7 +15,7 @@ const ProductItem = ({product}) => {
                 <ul className="action">
                     <Link to={`/Product/${product.id}`}><li><i className="fas fa-eye"></i><span>View Detail</span></li></Link>
                 
-                     <li onClick={() => addProduct(product)}><i className="fas fa-shopping-cart"></i><span></span></li>
+                     <li onClick={() => addProduct(product)}><i className="fas fa-shopping-cart"></i><span>Add to Cart</span></li>
                 </ul>
                 <div className="content-pro">
                 <div className="productName">
